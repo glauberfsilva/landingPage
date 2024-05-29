@@ -1,0 +1,468 @@
+/* styles.css */
+
+.header-dark {
+    background-color: #1a202c; /* Cor de fundo escura, pode ajustar conforme necessário */
+    color: white; /* Cor do texto */
+  }
+  
+  .header-dark a {
+    color: white; /* Cor do texto dos links */
+    transition: color 0.3s;
+  }
+  
+  .header-dark a:hover {
+    color: #00eeff; /* Cor dos links ao passar o mouse */
+  }
+
+  .hover-color-change:hover {
+    color: #00eeff;
+    }
+  .imgLogo{
+    width: 180px;
+  }
+
+  .custom-font-weight {
+    font-weight: 700; /* Negrito */
+}
+
+.customLogo{
+  margin-left: 60px;
+}
+  
+.backgroundBanner {
+  background-image: url('/images/agencia-tecnologia.png');
+  background-size: cover;
+  background-position: right;
+  height: 80vh; /* Altura da seção, ajuste conforme necessário */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerx {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  margin: 100px;
+}
+
+
+.text {
+  margin-right: auto; /* Empurra o conteúdo para a esquerda */
+  text-align: left;
+}
+.content {
+  width: 100%;
+  text-align: center;
+}
+.spacer {
+  width: 50%;
+}
+
+.title{
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.title2{
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.custom-button {
+  border: 2px solid black; /* Adiciona uma borda preta de 2px */
+  border-radius: 40px;
+  background-color: transparent; /* Define o fundo como transparente */
+  color: black; /* Define a cor do texto como preto */
+  font-weight: bold;
+  font-size: 12px;
+  padding: 10px 20px; /* Ajusta o espaçamento nas laterais para 20 pixels */
+
+}
+
+.containerx2 {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 100px;
+
+}
+.sectionSobre{
+  background-color: black;
+  
+}
+.sectionServices{
+  background-color: rgb(26, 26, 26);
+  
+}
+.space1 {
+  flex: 1;
+  padding-right: 20px; /* Ajuste conforme necessário */
+}
+
+.space2 {
+  flex: 0 0 auto;
+  padding: 0 10px; /* Espaçamento para a linha vertical */
+}
+
+.vl {
+  border-left: 2px solid rgb(255, 255, 255);
+  height:  200px;
+
+
+}
+
+.space3 {
+  flex: 1;
+  padding-left: 20px; /* Ajuste conforme necessário */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.imgLogo {
+  max-width: 100%; /* Garante que a imagem não ultrapasse o espaço disponível */
+}
+.imgLogoIcon {
+  max-width: 60px; /* Garante que a imagem não ultrapasse o espaço disponível */
+}
+.imgLogoPort {
+  max-width: 120px; /* Garante que a imagem não ultrapasse o espaço disponível */
+}
+
+.line{
+  height: 5px;
+  background-color: aqua;
+}
+
+.servicos1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+.textSerices{
+  margin-left: 10px;
+}
+
+.containerx3 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+.containerx3Infra {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 40%;
+}
+
+.backgroundBanner2 {
+  background-image: url('/images/background-lines.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Altura da seção, ajuste conforme necessário */
+  display: flex;
+  flex-direction: column;
+  padding: 100px 100px;
+  justify-content: center;
+}
+
+.casesx{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.box1{
+  margin-bottom: 70px;
+}
+.box2{
+  display: flex;
+}
+.title2x{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.custom-button2 {
+  border: 2px solid black; /* Adiciona uma borda preta de 2px */
+  border-radius: 40px;
+  background-color: transparent; /* Define o fundo como transparente */
+  color: black; /* Define a cor do texto como preto */
+  font-weight: bold;
+  font-size: 12px;
+  padding: 10px 20px; /* Ajusta o espaçamento nas laterais para 20 pixels */
+  width: 200px;
+}
+
+.custom-button2Infra {
+  border: 2px solid rgb(255, 255, 255); /* Adiciona uma borda preta de 2px */
+  border-radius: 40px;
+  background-color: transparent; /* Define o fundo como transparente */
+  color: rgb(255, 255, 255); /* Define a cor do texto como preto */
+  font-weight: bold;
+  font-size: 12px;
+  padding: 10px 20px; /* Ajusta o espaçamento nas laterais para 20 pixels */
+  width: 200px;
+}
+.box3{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+margin-top: 40px;
+}
+
+
+.backgroundBannerInfra {
+  background-image: url('/images/background-lines-dark.png');
+  background-size: cover;
+  background-position: right;
+  height: 80vh; /* Altura da seção, ajuste conforme necessário */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  padding: 250px 100px;
+
+}
+
+.imgLogoPortInfra {
+  max-width: 400px; /* Garante que a imagem não ultrapasse o espaço disponível */
+}
+
+.box2Infra{
+  display: flex;
+  width: 100%;
+}
+.imgLogoInfraIcon{
+width: 50px;
+}
+.box1Infra{
+  margin-bottom: 5px;
+}
+.box3Infra{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5px;
+  }
+
+  .containerx3InfraImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 50%;
+  }
+  .imgLogoInfraIconInfra{
+    width: 400px;
+  }
+
+  .imgLogoIconFoot {
+    max-width: 120px; /* Garante que a imagem não ultrapasse o espaço disponível */
+    margin-bottom: 10px;
+  }
+
+  .contatoIcons{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .spaceMargin{
+    margin-left: 5px;
+  }
+
+  .space1Foot {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10px; /* Espaçamento para a linha vertical */
+    justify-content: start;
+    align-items: start;
+  }
+
+  .space2Foot {
+    padding-left: 20px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+  }
+
+  .space2xFoot {
+    padding: 10px; /* Espaçamento para a linha vertical */
+
+  }
+
+  .space3Foot {
+    padding-left: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+  }
+
+.areax{
+  background-color: black;
+}
+
+
+@media (max-width: 767px) {
+
+  .sectionSobre{
+    padding: 25px;
+  }
+ 
+  .backgroundBanner {
+    background-image: url('/images/agencia-tecnologia.png');
+    background-size: cover;
+    background-position: right;
+    height: auto; /* Altura da seção, ajuste conforme necessário */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+  }
+
+  .containerx2 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .vl{
+    display: none;
+  }
+
+  .imgLogoIcon{
+    margin: 40px;
+  }
+
+  .space3 {
+    flex: 1;
+    padding-left: 0px; /* Ajuste conforme necessário */
+
+  }
+
+  .servicos1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+  }
+
+  .imgLogoIconx{
+    margin: 0px;
+    margin-bottom: 0px;
+  }
+  .textSerices{
+    margin: 10px;
+    margin-bottom: 30px;
+  }
+  .sectionServices{
+    padding: 20px;
+  }
+
+  .casesx{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  .backgroundBanner2 {
+    background-image: url('/images/background-lines.png');
+    background-size: cover;
+    background-position: left;
+    height: auto; /* Altura da seção, ajuste conforme necessário */
+    display: flex;
+    flex-direction: column;
+    padding: 50px 10px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .box2{
+    display: block;
+    text-align: center;
+  }
+
+  .backgroundBannerInfra {
+    background-image: url('/images/background-lines-dark.png');
+    background-size: cover;
+    background-position: left;
+    height: auto; /* Altura da seção, ajuste conforme necessário */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 30px 10px;
+    text-align: center;
+  }
+
+  .box2Infra{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 30px 0px;
+  }
+
+  .containerx3Infra {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 40%;
+    text-align: center;
+  }
+
+  .containerx3InfraImg{
+    display: none;
+  }
+
+  .containerx2 {
+    display: block;
+    align-items: center;
+    color: white;
+    padding: 5px;
+    text-align: center;
+  
+  }
+
+  .space2Foot {
+    display: none;
+    flex-direction: row;
+  }
+
+  .space3Foot {
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .imgLogoIconFoot {
+    max-width: 120px; /* Garante que a imagem não ultrapasse o espaço disponível */
+    margin: 30px;
+  }
+  
+}
